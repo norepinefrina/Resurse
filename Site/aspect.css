@@ -5,11 +5,13 @@ box-sizing: border-box}
 
 @font-face {
 font-family: Dekko;
-src: url("/Resurse/Fonturi/Dekko.ttf")}
+/* src: url("/Resurse/Fonturi/Dekko.ttf")} */
+src: url("https://cdn.jsdelivr.net/gh/norepinefrina/Resurse@main/Site/Fonturi/Dekko.ttf")}
 
 @font-face {
 font-family: Livvic;
-src: url("/Resurse/Fonturi/Livvic.ttf")}
+/* src: url("/Resurse/Fonturi/Livvic.ttf")} */
+src: url("https://cdn.jsdelivr.net/gh/norepinefrina/Resurse@main/Site/Fonturi/Livvic.ttf")}
 
 html {
 scroll-behavior: smooth}
