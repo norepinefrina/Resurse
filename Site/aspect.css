@@ -6,12 +6,12 @@ box-sizing: border-box}
 @font-face {
 font-family: Dekko;
 /* src: url("/Resurse/Fonturi/Dekko.ttf")} */
-src: url("https://cdn.jsdelivr.net/gh/norepinefrina/Resurse@main/Site/Fonturi/Dekko.ttf")}
+src: url("https://cdn.jsdelivr.net/gh/norepinefrina/Resurse/Site/Fonturi/Dekko.ttf")}
 
 @font-face {
 font-family: Livvic;
 /* src: url("/Resurse/Fonturi/Livvic.ttf")} */
-src: url("https://cdn.jsdelivr.net/gh/norepinefrina/Resurse@main/Site/Fonturi/Livvic.ttf")}
+src: url("https://cdn.jsdelivr.net/gh/norepinefrina/Resurse/Site/Fonturi/Livvic.ttf")}
 
 html {
 scroll-behavior: smooth}
@@ -121,7 +121,7 @@ width: 200%;
 height: 200%;
 background-color: #000000;
 opacity: 0;
-transition: 0.8s;
+transition: 0.4s;
 pointer-events: none}
 
 .NegruAnimatie {
@@ -143,7 +143,7 @@ background-color: #0c0415;
 outline: #9430ff solid 1px;
 filter: drop-shadow(#9430ff 0px 0px 2px);
 opacity: 0;
-transition: 0.8s;
+transition: 0.4s;
 transition-timing-function: ease;
 pointer-events: none}
 
@@ -297,7 +297,7 @@ color: #800000;
 border: dashed #800000 1px;
 pointer-events: none}
 
-.Loading {opacity: 0; transition: 0.8s}
+.Loading {opacity: 0; transition: 0.4s}
 .LoadingVizibil {opacity: 1}
 
 

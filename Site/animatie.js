@@ -1,4 +1,3 @@
-function Deschide(A) {location.replace(A)}
 function Ia(A) {return document.getElementsByClassName(A)[0]}
 function Ia2(A) {return document.getElementById(A)}
 
@@ -14,8 +13,9 @@ function Toggle() {
 Navigare.classList.toggle("NavigareAnimatie")
 Negru.classList.toggle("NegruAnimatie")}
 
-function Copiaza(A) {
-navigator.clipboard.writeText(A)}
+function Copiaza(A) {navigator.clipboard.writeText(A)}
+
+function Deschide(A) {location.replace(A)}
 
 function Redirect(A, B) {
 if (B) {
