@@ -41,7 +41,7 @@ Navigare.innerHTML = `
 <div class="NavigareButon" onclick="Redirect('/Ajutor')">help</div>
 <div class="NavigareButon" onclick="Redirect('/Change')">change</div>
 <div class="NavigareButon" onclick="Redirect('/Delete')">delete</div>
-<div class="NavigareButon" onclick="Redirect('/executors')">executors</div>
+<div class="NavigareButon" onclick="Redirect('/Executors')">executors</div>
 <div class="NavigareButon" onclick="Redirect('/Giveaways')">giveaways</div>
 <div class="NavigareButon" onclick="Redirect('/Configurari')">configurations</div>`
 
@@ -51,7 +51,7 @@ Jos.innerHTML = `
 <p class="Centru">Noradrenaline<br>
 Made on Android for Android</p>
 <br>
-<a class="JosLink" href="/discord">Discord</a>
+<a class="JosLink" href="/Discord">Discord</a>
 <a class="JosLink" href="https://youtube.com/@vodrite">YouTube</a>
 <br>
 <a class="JosLink" href="https://t.me/norepinafrina">Telegram Channel</a>
