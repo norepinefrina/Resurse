@@ -1,0 +1,311 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box}
+
+@font-face {
+font-family: Dekko;
+/* src: url("/Resurse/Fonturi/Dekko.ttf")} */
+src: url("https://cdn.jsdelivr.net/gh/norepinefrina/Resurse@main/Site/Fonturi/Dekko.ttf")}
+
+@font-face {
+font-family: Livvic;
+/* src: url("/Resurse/Fonturi/Livvic.ttf")} */
+src: url("https://cdn.jsdelivr.net/gh/norepinefrina/Resurse@main/Site/Fonturi/Livvic.ttf")}
+
+html {
+scroll-behavior: smooth}
+
+body {
+/* primele 4 pentru a centraliza pe pagină elementele*/
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+color: #ffffff; /* text color */
+background-color: #000000;
+word-wrap: break-word;
+padding-top: 100px;
+padding-bottom: 240px;
+position: relative;
+min-height: 100vh}
+
+h1 {
+color: #9430ff;
+font-family: Dekko;
+letter-spacing: 1px;
+line-height: 1.4}
+
+h2 {
+text-align: left;
+color: #d6afff;
+font-family: Dekko;
+letter-spacing: 1px;
+line-height: 1.4}
+
+p {
+text-align: left;
+color: #9430ff;
+font-family: Dekko;
+line-height: 1.4}
+
+a {
+color: #d6afff;
+font-family: Dekko;
+line-height: 1.4;
+text-decoration-style: dotted;
+text-decoration-thickness: 2px}
+
+input {
+font-family: Livvic;
+color: #d6afff;
+font-size: 14px;
+width: 240px;
+height: 28px;
+border: dashed #9430ff 1px;
+border-radius: 10px;
+background-color: #130721}
+
+button {
+font-family: Dekko;
+color: #9430ff;
+font-size: 20px;
+width: 140px;
+height: 34px;
+border: solid #9430ff 1px;
+border-radius: 10px;
+background-color: #130721;
+transition: 0.4s}
+
+button:active {
+color: #130721;
+background-color: #9430ff}
+
+
+/* Bara de Sus */
+.Bara {
+top: 0px;
+position: fixed;
+width: 100%;
+height: 60px;
+border-radius: 0px 0px 10px 10px;
+background-color: #0c0415;
+outline: #9430ff solid 1px;
+filter: drop-shadow(#9430ff 0px 0px 2px)}
+
+.Logo {
+top: 5px;
+left: 5px;
+position: fixed;
+width: 50px;
+height: 50px;
+border-radius: 20%;
+content: url("https://i.postimg.cc/gJ9Lfs9K/a.jpg")}
+
+.Titlu {
+top: 10px;
+left: 68px;
+position: fixed;
+font-size: 36px;
+color: #9430ff;
+font-family: Dekko;
+line-height: 1.4}
+
+
+/* Meniul de Navigare */
+.Negru {
+top: 0px;
+position: fixed;
+width: 200%;
+height: 200%;
+background-color: #000000;
+opacity: 0;
+transition: 0.4s;
+pointer-events: none}
+
+.NegruAnimatie {
+opacity: 0.8;
+pointer-events: auto}
+
+.Navigare {
+display: flex;
+align-items: center;
+flex-direction: column;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -20%) scale(0.8);
+position: fixed;
+width: 340px;
+height: 500px;
+border-radius: 10px;
+background-color: #0c0415;
+outline: #9430ff solid 1px;
+filter: drop-shadow(#9430ff 0px 0px 2px);
+opacity: 0;
+transition: 0.4s;
+transition-timing-function: ease;
+pointer-events: none}
+
+.NavigareAnimatie {
+transform: translate(-50%, -50%) scale(1);
+opacity: 1;
+pointer-events: auto}
+
+.NavigareDeschide {
+top: 15px;
+right: 18px;
+position: fixed;
+width: 30px;
+height: 30px;
+content: url("https://i.postimg.cc/Y2NjFvPt/a.png")}
+
+.NavigareInchide {
+top: 10px;
+right: 10px;
+position: fixed;
+width: 30px;
+height: 30px;
+content: url("https://i.postimg.cc/vTXQNVR9/a.png")}
+
+.NavigareTitlu {
+font-size: 36px;
+color: #9430ff;
+font-family: Dekko;
+line-height: 1.6}
+
+.NavigareButon {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+color: #9430ff;
+font-family: Dekko;
+outline: #9430ff40 solid 1px;
+width: 220px;
+height: 38px;
+border-radius: 10px;
+margin-bottom: 10px;
+transition: 0.4s}
+
+.NavigareButon:active {
+color: #130721;
+background-color: #9430ff}
+
+
+/* Bara de Jos */
+.Jos {
+bottom: 0px;
+padding-top: 20px;
+position: absolute;
+width: 100%;
+height: 200px;
+border-radius: 10px 10px 0px 0px;
+background-color: #0c0415;
+outline: #9430ff solid 1px;
+filter: drop-shadow(#9430ff 0px 0px 2px)}
+
+.JosLink {margin: 0px 10px 0px 10px}
+
+
+/* Script Loader și Preview */
+.Loader {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+font-size: 14px;
+color: #d6afff;
+font-family: Livvic;
+height: 34px;
+border: dashed #9430ff 1px;
+border-radius: 10px;
+background-color: #130721}
+
+.LoaderImagine {width: 360px}
+
+
+/* General */
+.Alb {color: #ffffff}
+.Mov {color: #9430ff}
+.Roz {color: #d6afff}
+.Rosu {color: #c60f0f}
+.Verde {color: #1cbf26}
+.Galben {color: #ffaa00}
+.Nocturnal {color: #d4ff00}
+.Celestial {color: #b40377}
+
+.Alineat {text-indent: 20px}
+.Centru {text-align: center}
+
+.CutieText {
+padding: 10px;
+width: 98%;
+border-radius: 10px;
+outline: #9430ff40 solid 1px; /* 40 = 75% transparentă */
+background: #0c041580; /* 80 = 50% transparentă */
+backdrop-filter: blur(1px)}
+
+.CutieAlb {
+outline: #d6afff40 solid 1px;
+background: #d6afff10}
+
+.CutieRosu {
+outline: #c60f0f40 solid 1px;
+background: #c60f0f10}
+
+.CutieNocturnal {
+outline: #d4ff0040 solid 1px;
+background: #d4ff0010}
+
+.CutieCelestial {
+outline: #b4037740 solid 1px;
+background: #b4037710}
+
+.Continut {
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 100%}
+
+.Plans {
+color: #d4ff00;
+outline: #d4ff0040 solid 1px}
+
+.Plans:active {
+color: #130721;
+background-color: #d4ff00}
+
+.Purchase {
+color: #d4ff00;
+border: solid #d4ff00 1px}
+
+.Purchase:active {
+color: #130721;
+background-color: #d4ff00}
+
+.Tutorial {
+color: #ff0000;
+border: solid #ff0000 1px}
+
+.Tutorial:active {
+color: #130721;
+background-color: #ff0000}
+
+.Disabled {
+color: #800000;
+border: dashed #800000 1px;
+pointer-events: none}
+
+.Loading {opacity: 0; transition: 0.4s}
+.LoadingVizibil {opacity: 1}
+
+
+@media (min-width: 768px) {
+.LoaderImagine {width: 400px}
+.CutieText {width: 600px}}
+
+
+
+
+
