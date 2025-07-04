@@ -36,14 +36,14 @@ Navigare.innerHTML = `
 <div class="NavigareInchide" onclick="Toggle()"></div>
 <div class="NavigareTitlu">Navigation</div>
 <br><br>
-<div class="NavigareButon" onclick="Redirect('/')">home</div>
+<div class="NavigareButon" onclick="Redirect('/')">Home</div>
 <div class="NavigareButon Plans" onclick="Redirect('/Planuri')">plans</div>
-<div class="NavigareButon" onclick="Redirect('/Ajutor')">help</div>
-<div class="NavigareButon" onclick="Redirect('/Change')">change</div>
-<div class="NavigareButon" onclick="Redirect('/Delete')">delete</div>
-<div class="NavigareButon" onclick="Redirect('/Executors')">executors</div>
-<div class="NavigareButon" onclick="Redirect('/Giveaways')">giveaways</div>
-<div class="NavigareButon" onclick="Redirect('/Configurari')">configurations</div>`
+<div class="NavigareButon" onclick="Redirect('/Ajutor')">Help</div>
+<div class="NavigareButon" onclick="Redirect('/Change')">Change</div>
+<div class="NavigareButon" onclick="Redirect('/Delete')">Delete</div>
+<div class="NavigareButon" onclick="Redirect('/Executors')">Executors</div>
+<div class="NavigareButon" onclick="Redirect('/Giveaways')">Giveaways</div>
+<div class="NavigareButon" onclick="Redirect('/Configurari')">Configurations</div>`
 
 Negru.innerHTML =`<div class="Loading"></div>`
 
