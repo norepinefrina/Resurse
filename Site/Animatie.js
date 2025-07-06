@@ -37,7 +37,7 @@ Navigare.innerHTML = `
 <div class="NavigareTitlu">Navigation</div>
 <br><br>
 <div class="NavigareButon" onclick="Redirect('/')">Home</div>
-<div class="NavigareButon Plans" onclick="Redirect('/Planuri')">plans</div>
+<div class="NavigareButon Plans" onclick="Redirect('/Planuri')">Plans</div>
 <div class="NavigareButon" onclick="Redirect('/Ajutor')">Help</div>
 <div class="NavigareButon" onclick="Redirect('/Change')">Change</div>
 <div class="NavigareButon" onclick="Redirect('/Delete')">Delete</div>
